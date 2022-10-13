@@ -1,0 +1,58 @@
+.container {
+    margin: 0 auto;
+    padding:0 15px;
+    max-width: 1440px;
+    display: flex;
+}
+
+.wraper {
+    display: flex;
+    width: 100%;
+    padding: 5% 3.5%;
+}
+
+.values__box-text {
+    width: 50%;
+}
+
+.section__title {
+    margin-top: 66px;
+    margin-bottom: 12px;
+}
+
+.values__text {
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.values__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.values__item {
+    display: inline-flex;
+    align-items: center;
+    width: calc((50% - 8.75%) / 1);
+
+    padding: 0;
+}
+
+.values__item svg {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.values__picture {
+    width: 50%;
+}
+
+.values__picture img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}
